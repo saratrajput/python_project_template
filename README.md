@@ -1,7 +1,7 @@
 # Python Project Template
 This is a simple template to get started on your python projects.
 
-**NOTE:**The template installs opencv modules for demonstration purposes.
+**NOTE:** The template installs opencv modules for demonstration purposes.
 
 ## How To Use This Template
 * Install cookiecutter
@@ -11,12 +11,12 @@ pip install cookiecutter
 
 * Setup the template with cookiecutter.
 ```
-cookiecutter "repo_addr"
+cookiecutter https://github.com/saratrajput/python_project_template.git
 ```
 
 ## Directory Structure
 ```
-.
+repo_name/
 ├── Dockerfile
 ├── images
 ├── README.md
@@ -34,17 +34,11 @@ cookiecutter "repo_addr"
 * **Dockerfile** to containerize your project.
 
 
-## How To Contribute
-* Feel free to customize the template as per your liking in a separate branch.
-```
-git clone <repo>
-git branch <custom-template>
-git checkout <custom-template>
-# Make changes, commit and push
-```
-
+## How To Customize
+* Feel free to customize the template as per your liking in your fork.
+* Fork the repository.
+* Make changes, commit and push.
 * You can now create your custom template projects with:
 ```
-cookiecutter -c <custom-template> repo
+cookiecutter -c <custom-template> https://github.com/<your-github-id>/python_project_template.git
 ```
-
